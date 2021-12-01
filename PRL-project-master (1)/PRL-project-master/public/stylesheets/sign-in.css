@@ -1,0 +1,40 @@
+.customsignin{
+    height:100%;
+    background-image: url("../images/bg.jpg");
+    color: white;
+}
+
+#inputEmail,#inputPassword {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+}
+#inputEmail::placeholder , #inputPassword::placeholder {
+  color: white;
+} 
+
+.btn-size {
+  border: 1px solid white;
+}
+  /*sign in style*/
+  .middle {
+    height: 70vh;
+    display: grid;
+    place-items: center;
+  }
+  .middle form {
+    display: grid;
+    place-items: center;
+  }
+  .middle form h1 {
+    font-size: 80px;
+  }
+  @media only screen and (max-width:670px) {
+    .middle form h1 {
+      font-size: 50px;
+    }
+  } 
+  .form-signin {
+    width: 40%;
+  }
+  

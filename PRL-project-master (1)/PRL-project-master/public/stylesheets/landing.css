@@ -1,0 +1,82 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    color: white;
+  }
+  .frontpage {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 100vh;
+  }
+  .main__head {
+    font-size: 4em;
+    font-weight: bold;
+    color: black;
+    margin-top: 20%;
+  }
+  .sub__head {
+    font-size: 2em;
+  }
+  .tert__head {
+    font-size: 30px;
+  }
+  
+  @media only screen and (max-width: 700px) {
+      .main__head {
+        font-size: 20px;
+      }
+      .sub__head {
+        font-size: 15px;
+      }
+      .tert__head {
+        font-size: 10px;
+      }
+  }
+  
+  /*sign in style*/
+  .middle {
+    height: 70vh;
+    display: grid;
+    place-items: center;
+  }
+  .middle form {
+    display: grid;
+    place-items: center;
+  }
+  .middle form h1 {
+    font-size: 80px;
+  }
+  @media only screen and (max-width:670px) {
+    .middle form h1 {
+      font-size: 50px;
+    }
+  } 
+  .form-signin {
+    width: 40%;
+  }
+  
+  .typewriter {
+    overflow: hidden; 
+    border-right: .15em solid white; 
+    white-space: nowrap; 
+    margin: 0 auto;
+    margin-top: 20%; 
+    letter-spacing: 10px; 
+    animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+  }
